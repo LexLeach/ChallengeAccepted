@@ -3,5 +3,39 @@
 }
 
 body {
-    color: aliceblue;
+    color: blue;
+    margin: 0;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #F6F8F9;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    background-color: #F6F8F9;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #A6ADB4;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nva"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 
+    1fr;
+    grid-template-rows:
+    2.3% 25% 2fr 11.5%;
+    height: 100vh;
 }
