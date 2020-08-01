@@ -67,12 +67,53 @@ header {
     grid-area: header;
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
 }
+
+.header-img-container {
+    color: white;
+    margin-left: 320px;
+    margin-right: 240px;
+    font-family: Helvetica;
+}
+
+.world {
+    margin-bottom: 40px;
+}
+
+.amazing {
+    margin-top: 40px;
+}
+
+.header-img-container h1 {
+    font-size: 24px;
+}
+
+.header-img-container p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.header-img-container a {
+    margin-top: 30px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    background-color: #FA6980;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 37px;
+    text-decoration: none;
+    margin-right: 525px;
+} 
 
 .image {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 70%;
     height: 100%;
     background-image: url("../ChallengeAccepted/images/mountains-1.png");
@@ -81,7 +122,7 @@ header {
     background-size: 1260px 940px;
 } 
 
-.article {
+article {
     display: flex;;
     flex-direction: column;
     justify-content: center;
@@ -153,6 +194,7 @@ main {
 .main-container {
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .trending-flex {
@@ -161,14 +203,14 @@ main {
     align-items: center;
     color: #202124;
     margin-left: 320px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .trending-icons {
     display: flex;
     justify-content: center;
     margin-right: 320px;
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 footer {
