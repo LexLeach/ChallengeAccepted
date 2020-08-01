@@ -3,13 +3,9 @@
     border: 2px solid red;
 }
 */
-
-html {
-    margin: 0;
-}
-
 body {
     color: blue;
+    max-width: 1800px;
     margin: 0;
 }
 
@@ -19,8 +15,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #F6F8F9;
-    margin: 0;
     font-family: Helvetica;
+    position: fixed;
+    width: 1800px;
 }
 
 .logo {
@@ -222,6 +219,8 @@ footer {
     grid-template-rows: 
     200px;
     background-color: #A6ADB4;
+    bottom: 0;
+    width: 1800pxß;
     font-family: Helvetica;
     color: #CBD0D3;
 }
