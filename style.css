@@ -1,5 +1,4 @@
-
-/* {
+* {
     border: 2px solid red;
 }
 */
@@ -22,7 +21,7 @@ body {
     font-family: Helvetica;
     position: fixed;
     width: 1800px;
-    margin-top: 0;
+    height: 50px;
 }
 
 .logo {
@@ -55,14 +54,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
 .navImg img {
     width: 30px;
     height: 30px;
-    padding: 10px;
 }
 
 header {
@@ -507,7 +507,149 @@ footer {
     grid-template-rows:
     50px 600px 1fr 200px;
     height: 100vh;
+    margin: 0;
 }
 
 /* Discovery CSS outside of the Navbar and footer, those remain the same */
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.header-img {
+    display: flex;
+    background-image: url(../ChallengeAccepted/images/hero.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: auto;
+    width: 1800px;
+    height: 600px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica;
+    margin-top: 31px;
+    width: 100%;
+}
+
+.header-h1 {
+    display: flex;
+    font-size: 25px;
+    margin-top: 140px;
+    height: 100px;
+}
+
+.header-icons-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-icons {
+    display: flex;
+}
+
+.icon-txt {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.icon-space {
+    display: flex;
+    margin-right: 30px;
+}
+
+.icon-space-2 {
+    display: flex;
+    margin-left: 30px;
+}
+
+.header-author {
+    display: flex;
+    width: 100%;
+}
+
+.author-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.author-img-flex {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.author-img-flex-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.author-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auther-img {
+    display: flex;
+    background-image: url("../ChallengeAccepted/images/avatar-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.next-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 157px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border: 3px dotted grey;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.story-txt {
+    display: flex;
+    flex-direction: column;
+    margin: 17px 17px 40px 30px;
+}
+
+.story-txt i {
+    margin-left: 238px;
+}
+
+.story-txt p {
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+.story-txt h3 {
+    color: #FA6980;
+}
+
+
+
+
+
+
+
 
