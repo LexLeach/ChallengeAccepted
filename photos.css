@@ -1,6 +1,8 @@
+
 * {
     border: 1px solid red;
 }
+*/
 
 html {
     margin: 0;
@@ -20,11 +22,12 @@ body {
     "nav"
     "header"
     "main"
+    "main-2"
     "footer";
     grid-template-columns: 
     1fr;
     grid-template-rows:
-    50px 600px 1fr 200px;
+    50px 600px 253px 1010px 200px;
     height: 1924px;
     margin: 0;
     background-color: #EBEDED;
@@ -129,7 +132,7 @@ header {
 
 .filter {
     display: flex;
-    border: 2px solid #A6ADB4;
+    border: 2px solid rgb(166, 173, 180, 0.5);
     border-radius: 10px;
     padding: 10px;
     color: #202124;
@@ -288,32 +291,169 @@ header {
     height: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main {
     grid-area: main;
+    display: flex;
+    margin: 40px 320px 20px 320px;
 }
 
+.main-flex {
+    display: flex;
+    height: 253px;
+}
 
+.main-flex-bdr {
+    display: flex;
+    border: 2px solid #F6F8F9;
+    border-left: none;
+    border-right: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1165px;
+    font-family: Helvetica;
+}
+
+.main-content p {
+    line-height: 1.6;
+}
+
+.content-1 {
+    display: flex;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.content-1-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-1-img {
+    display: flex;
+    background-image: url("../ChallengeAccepted/images/avatar-1.png");
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 360px;
+    height: 172px;
+    font-size: 14px;
+    margin-right: 40px;
+    color: #A6ADB4;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 128px;
+    font-size: 14px;
+    margin-bottom: 97px;
+    color: #A6ADB4;
+}
+
+.content-3-text {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.content-icon {
+    display: flex;
+    width: 360px;
+}
+
+main-2 {
+    grid-area: main-2;
+    display: flex;
+    margin: 80px 320px 200px 320px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.flex-img-content {
+    display: flex;
+    background-image: url("../ChallengeAccepted/images/image-8.png");
+    background-position: center;
+    background-size: contain;
+    width: 1160px;
+    height: 500px;
+}
+
+.col1 {
+    display: flex;
+    font-family: Helvetica;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.flex-text-container {
+    display: flex;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    font-size: 14px;
+    width: 760px;
+    height: 250px;
+    color: #A6ADB4;
+}
+
+.flex-text {
+    display: flex;
+    font-size: 16px;
+    width: 360px;
+    height: 77px;
+    color: #A6ADB4;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.bottom-bdr {
+    display: flex;
+    border: 2px solid #F6F8F9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 20px;
+}
+
+.number-flex {
+    display: flex;
+    font-family: Helvetica;
+}
+
+.number-flex a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #A6ADB4;
+    font-size: 11px;
+}
+
+.number-icons {
+    display: flex;
+    margin-bottom: 10px;
+    height: 50px;
+}
 
 
 

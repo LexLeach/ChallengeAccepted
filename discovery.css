@@ -242,6 +242,7 @@ main {
     "main-grid-left main-grid-right";
     grid-template-columns: 1fr 2fr;
     margin: 100px 320px 100px 320px;
+    grid-template-rows: auto;
     height: 483px;
 }
 
